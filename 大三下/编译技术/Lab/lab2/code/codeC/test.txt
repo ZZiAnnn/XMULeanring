@@ -1,0 +1,7 @@
+while (a3+15)>0xa do 
+	if x2 = 7 then 
+		while y<z  do 
+			y = x * y / z;
+		;
+	;
+;

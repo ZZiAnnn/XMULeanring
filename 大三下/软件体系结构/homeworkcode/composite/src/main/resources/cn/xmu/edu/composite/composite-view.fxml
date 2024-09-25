@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.xmu.edu.composite.CompositeController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+  <stylesheets>
+    <URL value="@styles.css" />
+  </stylesheets>
+  <HBox prefHeight="20.0" prefWidth="200.0" alignment="CENTER" spacing="10">
+    <children>
+      <Button onAction="#selectButtonClick" text="Select Folder" />
+      <Button onAction="#onCreateFileButtonClick" text="Add File" />
+      <Button onAction="#onCreateFoldButtonClick" text="Add Folder" />
+    </children>
+  </HBox>
+  <Label fx:id="label" text="Please select a directory to begin" />
+  <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="400.0" wrapText="true" />
+</VBox>

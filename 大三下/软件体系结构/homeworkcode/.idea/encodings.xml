@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Factory/src/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Factory/src/clothes/Clothes.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Factory/src/idcard/IDCard.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/LoD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoD/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/composite/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/composite/src/main/java/cn/xmu/edu/composite/Entry.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/composite/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/statePattern/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/statePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/statePattern/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

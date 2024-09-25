@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="cn.xmu.edu.gumballstate.GumballController">
+    <Label fx:id="textLabel"/>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" />
+    <VBox prefHeight="80.0" prefWidth="100.0" spacing="5.0">
+        <HBox prefHeight="45.0" prefWidth="200.0" alignment="CENTER" spacing="10.0">
+            <children>
+                <Button fx:id="insertQuarterButton" mnemonicParsing="false" text="投入硬币"
+                        onAction="#insertQuarterButtonPressed"/>
+                <Button fx:id="ejectQuarterButton" mnemonicParsing="false" text="退换硬币"
+                        onAction="#ejectQuarterButtonPressed"/>
+                <Button fx:id="turnCrankButton" mnemonicParsing="false" text="转动手柄"
+                        onAction="#turnCrankButtonPressed"/>
+            </children>
+        </HBox>
+        <!--            <HBox prefHeight="45.0" prefWidth="200.0" alignment="CENTER" spacing="10.0">-->
+        <!--                <children>-->
+        <!--                    <Button fx:id="refillButton" mnemonicParsing="false" text="补充糖果" onAction="#refillButtonPressed" />-->
+        <!--                    <Button fx:id="exitButton" mnemonicParsing="false" text="退出程序" onAction="#exitButtonPressed" />-->
+        <!--                </children>-->
+        <!--            </HBox>-->
+    </VBox>
+</VBox>
+

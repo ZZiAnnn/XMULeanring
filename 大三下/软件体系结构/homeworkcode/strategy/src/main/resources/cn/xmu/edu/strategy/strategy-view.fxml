@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="rootVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="600.0" alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.xmu.edu.strategy.StrategyController">
+  <padding>
+    <Insets top="20" right="20" bottom="20" left="20"/>
+  </padding>
+  <children>
+    <HBox alignment="CENTER" spacing="20">
+      <children>
+        <VBox alignment="CENTER" spacing="10">
+          <children>
+            <Label text="Player 1" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+            <TextField fx:id="player1TextField" prefHeight="25.0" prefWidth="150.0" />
+            <ComboBox fx:id="player1ComboBox" prefHeight="25.0" prefWidth="150.0" />
+          </children>
+        </VBox>
+        <VBox alignment="CENTER" spacing="10">
+          <children>
+            <Label text="Player 2" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+            <TextField fx:id="player2TextField" prefHeight="25.0" prefWidth="150.0" />
+            <ComboBox fx:id="player2ComboBox" prefHeight="25.0" prefWidth="150.0" />
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+    <VBox alignment="CENTER" spacing="10">
+      <children>
+        <Label text="Process" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-font-family: Consolas " />
+        <TextArea fx:id="textArea" prefHeight="400.0" prefWidth="100.0"
+                  style="-fx-border-color: gray;
+                    -fx-border-width: 1px;
+                    -fx-padding: 10px;
+                    -fx-font-size: 14px;
+                    -fx-font-family: Consolas" />
+      </children>
+    </VBox>
+    <VBox alignment="CENTER" spacing="10">
+      <children>
+        <Label text="Result"
+               style="-fx-font-size: 20px;
+                -fx-font-weight: bold;
+                 -fx-font-family: Consolas " />
+        <TextArea fx:id="resultArea" prefHeight="250.0" prefWidth="100.0"
+                  style="-fx-border-color: gray;
+                  -fx-border-width: 1px;
+                  -fx-padding: 10px;
+                  -fx-font-size: 14px;
+                  -fx-font-family: Consolas" />
+      </children>
+    </VBox>
+    <HBox alignment="CENTER" spacing="20">
+      <children>
+        <Button fx:id="confirmButton" onAction="#confirm" mnemonicParsing="false" text="Confirm"
+                style="-fx-font-size: 14px;
+                -fx-font-family: Consolas" />
+        <Button fx:id="resetButton" onAction="#reset" mnemonicParsing="false" text="Reset"
+                style="-fx-font-size: 14px;
+                -fx-font-family: Consolas" />
+      </children>
+    </HBox>
+  </children>
+</VBox>

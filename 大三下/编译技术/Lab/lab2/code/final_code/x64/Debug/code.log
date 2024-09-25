@@ -1,0 +1,6 @@
+﻿  grammatical.cpp
+D:\Desktop\learning\3.2\编译技术\Lab\lab2\code\final_code\lexical.hpp(11,2): warning C4091: “extern ”: 没有声明变量时忽略“<unnamed-enum-INT>”的左侧
+  main.cpp
+D:\Desktop\learning\3.2\编译技术\Lab\lab2\code\final_code\lexical.hpp(11,2): warning C4091: “extern ”: 没有声明变量时忽略“<unnamed-enum-INT>”的左侧
+  正在生成代码...
+  code.vcxproj -> D:\Desktop\learning\3.2\编译技术\Lab\lab2\code\final_code\x64\Debug\code.exe

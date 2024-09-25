@@ -1,0 +1,4 @@
+software@xmu.edu.cn=software
+student@xmu.edu.cn=student
+you@xmu.edu.cn=you
+me@xmu.edu.cn=me
